@@ -1,1 +1,7 @@
-
+.bar-block {
+    background-color: #9584c7;
+    color: white;
+    text-align: right;
+    margin-top: 5px;
+    margin-bottom: 7px;
+}
