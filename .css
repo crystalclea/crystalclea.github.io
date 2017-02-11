@@ -1,3 +1,16 @@
+ 
+h1 {
+   color: #6742bb;
+    font: lato;
+    position: center
+}
+
+h2{
+    color: #6742bb;
+    font: lato
+}
+
+
 .bar-block {
     background-color: #9584c7;
     color: white;
