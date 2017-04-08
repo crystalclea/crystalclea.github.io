@@ -421,6 +421,8 @@ h1 .logo {
 
 #contact .overlay {
 	background: rgba(0,0,0,.968);
+	width: 100%;
+		height: auto;
 }
 
 #contact h2 {
