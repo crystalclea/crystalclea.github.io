@@ -25,7 +25,7 @@ a:hover, a:focus {
 h1 {
 	color: white;
 	text-align: center;
-	margin-top: 10%;
+	margin-top: 1%;
 	font-size: 250%;
 }
 
@@ -65,6 +65,7 @@ h1 .logo {
 	font-family: 'Satisfy', cursive;
 	width: 200px;
 	margin-left: -20px;
+	margin-top:10%
 }
 
 /* ELEMENTS */
