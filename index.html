@@ -28,271 +28,205 @@
 </head>
 
 <body>
+<!-- navbar header -->
+<div class="nav-header">
+  <div class="nav-brand">
+    <img src="https://crystalclea.github.io/portfolio/crystal_logo1.png">
+  </div>
+  <i class="fa fa-bars fa-3x"></i>
+    <div class="header-links">
+      <ul>
+        <li data-menuanchor="fourthPage"><a href="#contact">CONTACT</a></li>
+        <li data-menuanchor="thirdPage"><a href="#portfolio">PORTFOLIO</a></li>
+        <li data-menuanchor="secondPage"><a href="#about">ABOUT</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!-- end navbar header -->
+
+<!-- sidebar slider -->
+<div class="nav-screen">
+  <i class="fa fa-times fa-3x"></i>
+  <div class="nav-container">
+    <div class="nav-links">
+      <ul id='myMenu'>
+        <li data-menuanchor="secondPage"><a href="#about">ABOUT</a></li>
+        <li data-menuanchor="thirdPage"><a href="#portfolio">PORTFOLIO</a></li>
+        <li data-menuanchor="fourthPage"><a href="#contact">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!-- end navbar slider -->
+
   
 
+<!-- begin fullpage -->
 
+<div id="fullpage">
 
-	
-		<!-- LANDING PAGE -->
-		<section id="home">
-			<!-- OVERLAY -->
-			<div class="overlay">
-				<!-- PRIMARY NAVIGATION -->
-				<nav role="navigation" class="fixed">
-					<ul class="vertical-list">
-						<li><a href="#home">Home</a></li>
-						<li><a href="#about">About me</a></li>
-						<li><a href="#portfolio">Work</a></li>
-						<li><a href="#contact">Contact Me</a></li>
-					</ul>
-				</nav>
-				<!-- END OF PRIMARY NAVIGATION -->
+  <!-- begin section -->
 
-				<!-- CONTAINER -->
-				<div class="container">
-					<h1><span class="logo">Crystal</span><small><i>A reporter based in Hong Kong</i></small></h1>
-						<ul class="social-links vertical-list">
-						<li><a href="https://twitter.com/Crystal_Tai_" class="noir twitter" target="_blank">Twitter</a></li>
-						<li><a href="https://urbancottagehk.wordpress.com/" class="noir linkedin" target="_blank">Blog</a></li>
-						<li><a href="https://github.com/crystalclea" class="noir linkedin" target="_blank">GitHub</a></li>
-              	<li><a href="https://crystalclea.github.io/profile/" class="noir freecodecamp" target="_blank">CV</a></li>
-					</ul>
-				</div>
-				<!-- END OF CONTAINER -->
-			</div>
-			<!-- END OF OVERLAY -->
-		</section>
-		<!-- END OF LANDING PAGE -->
+  <div class="section aboutme" data-anchor="aboutme">
+    <div class="opaque-bg animated fadeInDown">
+      <h1 style="color:white">CRYSTAL<span style="color:#AB4DD2">/</span>TAI</h1>
+      <p><span id="holder"></span><span class="blinking-cursor">|</span></p>
+    </div>
+      <i id="moveDown" class="fa fa-chevron-down fa-3x bounce"></i>
+  </div>
+  <!-- end section -->
 
+  <!-- begin section -->
 
-		<!-- ABOUT -->
-		<section id="about">
-			<!-- CONTAINER -->
-			<div class="container">
-				<h2>a little about me...</h2>
-				<div class="row info">
-					<div class="col-sm-8">
-						<p>
-							I'm currently studying International Journalism at Hong Kong Baptist University having just completed my 3rd year. I obsess over the minor details in creating motion graphics and am passionate in making data readable and fun with visualizations. 
-						<span class="signature">. Crystal Tai</span>
-					</p></div>
+  <div class="section" data-anchor="skills">
+    <div class="content">
+      <h1 class="wow fadeInDown" data-wow-delay="0.2s">ABOUT ME</h1>
+      <p class="wow fadeInDown" data-wow-delay="0.2s">Hi, I'm Crystal! I'm currently studying International Journalism at Hong Kong Baptist University having just completed my 3rd year. I obsess over the minor details in creating motion graphics and I am passionate in making data readable and fun with visualizations.</p>
 
-					<div class="col-md-4">
-						<img src="https://urbancottagehk.files.wordpress.com/2017/04/img_0086.jpg" alt="Crystal Tai" class="img-responsive img-circle">
-					</div>
-				</div>
-				
-				<div id="skill-set">
-					<h3>Skills</h3>
-					<ul class="vertical-list">
-						<li>
-							<ul class="vertical-list skills" id="web-development-skills">
-								<li>HTML</li>
-								<li>CSS</li>
-								<li>JavaScript</li>
-							</ul>
-						</li>
-						<li>
-							<ul class="vertical-list skills" id="automation-skills">
-								<li>After Effects</li>
-							</ul>
-						</li>
+      <div class=" wow fadeInUp container-skillbar" data-wow-delay="0.2s">
+        <div class="skillbar clearfix " data-percent="70%">
+          <div class="skillbar-title" style="background: #AB4DD2;"><span>After Effects</span></div>
+          <div class="skillbar-bar" style="background: #AB4DD2;"></div>
+          <div class="skill-bar-percent">70%</div>
+        </div> <!-- End Skill Bar -->
 
-						<li>
-							<ul class="vertical-list skills" id="misc-skills">
-								<li>Illustrator</li>
-							</ul>
-						</li>
-					</ul>
-				</div>
-			</div>
-			<!-- END OF CONTAINER -->
-		</section>
-		<!-- END OF ABOUT -->
+        <div class="skillbar clearfix " data-percent="75%">
+          <div class="skillbar-title" style="background: #AB4DD2;"><span>Premiere Pro</span></div>
+          <div class="skillbar-bar" style="background: #AB4DD2;"></div>
+          <div class="skill-bar-percent">75%</div>
+        </div> <!-- End Skill Bar -->
 
-		<!-- PORTFOLIO -->
-		<section id="portfolio">
-			
-					<!-- CONTAINER -->
-					<div class="container">
-						<h2>some of my work...</h2>
-					</div>
-					<!-- END OF CONTAINER -->
-					
-					<div class="container">
-						<section>
-								<!-- OVERLAY -->
-								<div class="overlay">
-									<!-- DESCRIPTION -->
-									<div class="description">
-										<p>
-										Are more Americans getting passports? Official data brag about it but a closer look at it tells a different story.
-										</p>
-										
-										<h6>Tools<span class="glyphicon glyphicon-cog"></span></h6>
-										<ul class="tools vertical-list">
-											<li>HTML</li>
-											<li>CSS</li>
-							
-										</ul>
-									</div>
-									<!-- END OF DESCRIPTION -->
-									
-									<a href="https://crystalclea.github.io/homework1/"target="_blank">
-<img src="https://assets3.thrillist.com/v1/image/1471887/size/tmg-slideshow_l.jpg">
-									<h4 class="heading"><span class="glyphicon glyphicon-hand-up"></span>The myth behind offical data</h4>
-								</a></div><a href="https://crystalclea.github.io/homework1/"target="_blank">
-								<!-- END OF OVERLAY -->
-							</a></section><a href="https://crystalclea.github.io/homework1/">
-							<!-- END OF SECTION -->
+        <div class="skillbar clearfix " data-percent="70%">
+          <div class="skillbar-title" style="background: #AB4DD2;"><span>Illustrator</span></div>
+          <div class="skillbar-bar" style="background: #AB4DD2;"></div>
+          <div class="skill-bar-percent">70%</div>
+        </div> <!-- End Skill Bar -->
 
-							</a><section><a href="https://crystalclea.github.io/homework1/">
-								<!-- OVERLAY -->
-								</a><div class="overlay"><a href="https://crystalclea.github.io/homework1/">
-									<!-- DESCRIPTION -->
-									<div class="description">
-										<p>
-											Public space in private development is inaccessible and poorly managed in Hong Kong.
-										</p>
-										
-										<h6>Tools<span class="glyphicon glyphicon-cog"></span></h6>
-										<ul class="tools vertical-list">
-											<li>HTML</li>
-											<li>CSS</li>
-											<li>Google Fusion Table</li>
-										</ul>
-									</div>
-									<!-- END OF DESCRIPTION -->
-									
-							</a><a href="https://crystalclea.github.io/publicspaceinhk/"target="_blank">
-<img src="http://www.asianurbanepicenters.com/wp-content/uploads/2012/03/image_1.jpg">
-                
-									<h4 class="heading"><span class="glyphicon glyphicon-hand-up"></span>The tug of war between public and private Development</h4>
-								</a></div><a href="https://crystalclea.github.io/publicspaceinhk/">
-								<!-- END OF OVERLAY -->
-							</a></section><a href="https://crystalclea.github.io/publicspaceinhk/">
-							<!-- END OF SECTION -->
-						
-							<!-- SECTION -->
-							</a><section><a href="https://crystalclea.github.io/publicspaceinhk/"target="_blank">
-								<!-- OVERLAY -->
-								</a><div class="overlay"><a href="https://crystalclea.github.io/publicspaceinhk/">
-									<!-- DESCRIPTION -->
-									<div class="description">
-										<p>
-									The UK government made a claim earlier that the number of homeless people had dropped though another data source says otherwise.
-										</p>
-										
-										<h6>Tools<span class="glyphicon glyphicon-cog"></span></h6>
-										<ul class="tools vertical-list">
-											<li>HTML</li>
-											<li>CSS</li>
-											<li>JavaScript</li>
-					
-										</ul>
-									</div>
-									<!-- END OF DESCRIPTION -->
-									
-								</a><a href="https://crystalclea.github.io/homework3/#out of sight, out of mind" target="_blank">
-<img src="http://previous.presstv.ir/photo/20111205/lotfi_morteza20111205151624403.jpg">
-                  
-									<h4 class="heading"><span class="glyphicon glyphicon-hand-up"></span>Fewer homeless people in the UK - or maybe not</h4>
-								</a></div><a href="https://crystalclea.github.io/homework3/#out of sight, out of mind">
-								<!-- END OF OVERLAY -->
-							</a></section><a href="https://crystalclea.github.io/homework3/#out of sight, out of mind">
-							<!-- END OF SECTION -->
+        <div class="skillbar clearfix " data-percent="75%">
+          <div class="skillbar-title" style="background: #AB4DD2;"><span>HTML/CSS</span></div>
+          <div class="skillbar-bar" style="background: #AB4DD2;"></div>
+          <div class="skill-bar-percent">75%</div>
+        </div> <!-- End Skill Bar -->
 
-						<!-- COLUMN 3 -->
-							<!-- SECTION -->
-							</a><section><a href="https://crystalclea.github.io/homework3/#out of sight, out of mind">
-								<!-- OVERLAY -->
-								</a><div class="overlay"><a href="https://crystalclea.github.io/homework3/#out of sight, out of mind">
-									<!-- DESCRIPTION -->
-									<div class="description">
-										<p>
-											The year 2016 marks a drop in the number of AIDs cases reported as compared to the previous year - a relief to aids concern groups. But statistics show we should be more aware about safe sex more than ever. 
-										</p>
-										
-										<h6>Tools<span class="glyphicon glyphicon-cog"></span></h6>
-										<ul class="tools vertical-list">
-											<li>Echarts</li>
-											<li>HTML</li>
-											<li>CSS</li>
-										</ul>
-									</div>
-									<!-- END OF DESCRIPTION -->
-									
-									</a><a href="https://crystalclea.github.io/homework5/" target="_blank">
-<img src="https://www.mazzonicenter.org/sites/default/files/styles/full/public/images/shutterstock_259027358.jpg?itok=T5yA05qM">
-									<h4 class="heading"><span class="glyphicon glyphicon-hand-up"></span>The inconvenient truth about AIDS in Hong Kong</h4>
-								</a></div><a href="https://crystalclea.github.io/homework5/">
-								<!-- END OF OVERLAY -->
-							</a></section><a href="https://crystalclea.github.io/homework5/">
-							<!-- END OF SECTION -->
+        <div class="skillbar clearfix " data-percent="70%">
+          <div class="skillbar-title" style="background: #AB4DD2;"><span>Photography</span></div>
+          <div class="skillbar-bar" style="background: #AB4DD2;"></div>
+          <div class="skill-bar-percent">70%</div>
+        </div> <!-- End Skill Bar -->
 
-								</a></div><a href="https://crystalclea.github.io/homework5/">
-								<!-- END OF OVERLAY -->
-							</a></section><a href="https://crystalclea.github.io/homework5/">
-							<!-- END OF SECTION -->
-					
-					<!-- END OF PORTFOLIO -->
-					
+        <div class="skillbar clearfix " data-percent="70%">
+          <div class="skillbar-title" style="background: #AB4DD2;"><span>Excel</span></div>
+          <div class="skillbar-bar" style="background: #AB4DD2;"></div>
+          <div class="skill-bar-percent">70%</div>
+        </div> <!-- End Skill Bar -->
+      </div>
+    </div>
+  </div>
+  <!-- end section -->
 
-			<!-- CONTACT PAGE -->
-		<section id="contact">
-			<div class="overlay">
-				<div class="container">
-					<h2>get in touch...</h2>
-					
-					<div class="row">
-						<div class="col-lg-9">
-						<form role="form" method="POST">
-							<div class="form-group">
-								<label for="nameTXT">Your Name</label>
-								<input type="text" id="nameTXT" name="nameTXT">
-							</div>
+  <!-- begin section -->
 
-							<div class="form-group">
-								<label for="emailTXT">Email Address</label>
-								<input type="email" id="emailTXT" name="emailTXT">
-							</div>
+  <div class="section" data-anchor="projects">
+    <div class="content-slide">
+        <div class="slide">
+          <h1 class="wow fadeInDown" data-wow-delay="0.2s">MOTION GRAPHICS</h1>
+          <p class="wow fadeInDown" data-wow-delay="0.2s">American singer-songwriter Bob Dylan didn't pick up his Nobel Prize in literature at the award ceremony in Stockholm. But he's not the first laureate to be absent from the gala. Click to watch the video.</p>
+          <a href="https://web.facebook.com/tyrmag/videos/1354643401226853/" target="_blank">
+          <img class="wow fadeInUp" data-wow-delay="0.2s" data-src="https://crystalclea.github.io/portfolio/bob-dylan_port.png"> </a>
+        </div>
+        <div class="slide">
+          <h1>KINETIC TYPOGRAPHY</h1>
+          <p>Coverage of the cross-harbor race last year with popping words to cater viewers that watch videos without turning the sound on.</p>
+          <a href="https://web.facebook.com/tyrmag/videos/1292430984114762/" target="_blank"> <img data-src="https://crystalclea.github.io/portfolio/swim_port.png"> </a>
+        </div>
+        <div class="slide">
+          <h1>KINETIC TYPOGRAPHY</h1>
+          <p>An explanatory video about the derogatory term "shina" with kinetic typography and a bit of motion graphics.</p>
+          <a href="https://web.facebook.com/tyrmag/videos/1291671374190723/" target="_blank"><img data-src="https://crystalclea.github.io/portfolio/shina_port.png"> </a>
+        </div>
+        <div class="slide">
+          <h1>WED DESIGN</h1>
+          <p>Our investigative story on public space in Hong Kong is presented on an interatice website with Google Fusion Table and a photo collage.</p>
+          <a href="https://crystalclea.github.io/publicspaceinhk/" target="_blank">  <img data-src="https://crystalclea.github.io/portfolio/public-space_port.png"> </a>
+        </div>
+        <div class="slide">
+          <h1>MY BLOG</h1>
+          <p>My recent travels have taken me to extraodinary places with amazing people. They are great sources of inspiration for my photos and articles.</p>
+          <a href="https://urbancottagehk.wordpress.com/" target="_blank"> <img data-src="https://crystalclea.github.io/portfolio/urban-cottage_port-.png"> </a>
+        </div>
+        <div class="slide">
+          <h1>EVENT VIDEO</h1>
+          <p>A recap video for an event created with footages I had shot earlier and simple title animations.</p>
+          <a href="https://web.facebook.com/blueflowertravels/videos/1232121903564760/" target="_blank"> <img data-src="https://crystalclea.github.io/portfolio/travelsalon_port.png"> </a>
+        </div>
+    </div>
+  </div>
+  <!-- end section -->
 
-							<div class="form-group">
-								<label for="subjectTXT">Subject</label>
-								<input type="text" id="subjectTXT" name="subjectTXT">
-							</div>
+  <!-- begin section -->
 
-							<div class="form-group">
-								<label for="messageTXT">Message</label>
-								<textarea cols="36" rows="8" id="messageTXT" name="messageTXT"></textarea>
-							</div>
+  <div class="section" data-anchor="contact">
+    <div class="content wow fadeInDown" data-wow-delay="0.2s">
+      <h1>CONTACT ME</h1>
+        <p>Whether you're interested in working with me or just want to say hello, I'd love to hear from you!</p>
+        <br>
+      <div class="contact-form">
 
-							<button type="submit" class="noir" id="submitBTN" name="submitBTN"><span class="glyphicon glyphicon-send"></span>Send</button>
-						</form>	
-					</div>
-					
-					<div class="col-lg-3 overflow">
-						<ul class="social-links vertical-list">
-							<li><a href="https://twitter.com/?lang=en" class="noir twitter" target="_blank">Twitter</a></li>
-							<li><a href="https://urbancottagehk.wordpress.com/" class="noir linkedin" target="_blank">Blog</a></li>
-              	<li><a href="https://github.com/crystalclea" class="noir linkedin" target="_blank">GitHub</a></li>
-                	<li><a href="https://crystalclea.github.io/profile/" class="noir freecodecamp" target="_blank">CV</a></li>
-					
-						</ul>
-					</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- END OF CONTACT PAGE -->
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <div id="form-messages"></div>
+        <form id="ajax-contact" method="post" role="form" action="contact.php" data-toggle="validator">
+          <div class="form-group has-feedback wow fadeInLeft" data-wow-delay="0.6s" >
+            <input type="text" class="form-control" id="name" name="name" placeholder="NAME" data-error="Field can't be blank!" required>
+            <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+            <div class="help-block with-errors"></div>
+          </div>
 
-    <script src="js/index.js"></script>
+          <div class="form-group has-feedback wow fadeInRight" data-wow-delay="0.8s" >
+            <input type="email" class="form-control" id="email" name="email" placeholder="EMAIL" data-error="Field can't be blank!" required>
+            <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+            <div class="help-block with-errors"></div>
+          </div>
 
+          <div class="form-group has-feedback wow fadeInLeft" data-wow-delay="1s">
+            <textarea data-minlength="10" class="form-control" id ="message" name="message" placeholder="MESSAGE" data-error="Minimum of 10 characters" required></textarea>
+            <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+            <div class="help-block with-errors"></div>
+          </div>
 
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+          <div class="hidden">
+            <input type="text" class="form-control" id="human" name="human" placeholder="">
+          </div>
+          <div class="wow fadeInUp" data-wow-delay="1s">
+            <button type="submit" id="submit" name="submit" class="btn btn-lg">SEND MESSAGE</button>
+          </div>
+        </form> 
+      <br>
+      </div>
+  </div>
+ </div>
+ <!-- end section -->
+
+  <!-- begin section -->
+
+  <div class="section fp-auto-height">
+    <div class="footer">
+      <p>CONNECT WITH ME</p>
+      <div class="social-links">
+        <span><a href="https://www.linkedin.com/in/crystal-tai/" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a></span>
+        <span><a target="_blank" href="https://twitter.com/Crystal_Tai_" target="_blank"><i class="fa fa-twitter fa-2x"></i></a></span>
+        <span><a href="https://github.com/crystalclea" target="_blank"><i class="fa fa-github fa-2x"></i></a></span>
+        <span><a href="https://codepen.io/crystalcytai/"><i class="fa fa-codepen fa-2x"></i></a></span>
+      </div>
+    </div>
+  </div>
+  <!-- end section -->
+
+</div>
+<!-- end fullpage -->
+
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://s3-us-west-2.amazonaws.com/parallax-theme/assets/wow.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.4/jquery.fullPage.min.js"></script>
 </body>
-</html>
+
